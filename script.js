@@ -62,6 +62,11 @@
 		testingTiga[0].style.backgroundColor = 'white';
 	})
 
+	touchOff.addEventListener('click',function(){
+		const testingTiga = document.getElementsByClassName('testing3')
+		testingTiga[0].style.backgroundColor = 'red';
+	})
+
 
 
 
